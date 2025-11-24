@@ -1,0 +1,7 @@
+<strong>Tweet (<%= @tweet.shortened.size %>):</strong>
+<blockquote class="blockquote"><%= @tweet.shortened %></blockquote>
+
+<blockquote class="blockquote">**Hello**</blockquote>
+
+<strong>Original: </strong>
+<%= simple_format @tweet.long %>
